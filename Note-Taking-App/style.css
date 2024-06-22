@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.Container {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.formArea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #fff;
+}
+#label {
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+#textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  margin: 15px 0px;
+  border-radius: 15px;
+  border: 0px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  height: 150px;
+  box-sizing: border-box;
+}
+
+.btn-submit {
+  padding: 10px;
+  border: none;
+  background-color: #040926;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+.notes {
+  margin-top: 30px;
+  display: flex;
+  border: 1px solid black;
+  width: 80%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #fff;
+}
+#note {
+  flex: 1;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Delete {
+  padding: 12px;
+  border-radius: 15px;
+  background-color: rgb(230, 26, 26);
+  color: bisque;
+  font-size: 17px;
+}
+#Delete:hover {
+  background-color: #fafafa;
+  color: black;
+  transition: 0.75s;
+  box-shadow: 2px 2px 70px red;
+}
+.noteContainer {
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+}
