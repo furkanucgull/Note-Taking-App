@@ -12,7 +12,7 @@ HTML
 CSS
 JavaScript
 How to Use
-## Open the application: [Live Demo](https://app.netlify.com/sites/getnoted/overview)
+## Open the application: [Live Demo](https://getnoted.netlify.app/)
 #### Type a note in the text input field.
 #### Click the "Create Note" button.
 #### You can view the created notes and delete them using the "Delete" button if desired.
